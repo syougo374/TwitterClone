@@ -1,0 +1,22 @@
+<%= form_with(model: @post, local: true) do |form| %>
+  <h1>TwitterClone</h1>
+  <head>
+    <meta charset = 'utf-8'>
+  </head>
+  <body>
+    <header>
+
+
+
+
+    </header>
+    <fotter>
+      <%= form.label :content %>
+      <br>
+      <%= form.text_field :content %>
+      <br>
+      <%= form.submit %>
+    </fotter>
+  </body>
+
+<% end %>
