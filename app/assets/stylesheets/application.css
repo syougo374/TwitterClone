@@ -1,15 +1,13 @@
 body {
-  background-color: aqua;
+  background-color: rgb(191, 252, 223);
 }
-.main-container {
+header{
   background-image: url("<%= asset_path('8.jpeg') %>")
-  height: 800px;
-  background-size:cover;
 }
 app/assets/stylesheets/application.css
 
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+
+ /* * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
@@ -17,7 +15,6 @@ app/assets/stylesheets/application.css
  *
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
- *
- *= require_self
- *= require_tree .
- */
+  */
+*= require_self
+*= require_tree 
