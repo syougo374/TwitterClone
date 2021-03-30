@@ -1,4 +1,14 @@
 body {
   background-color: rgb(191, 252, 223);
 }
-
+footer {
+  background-color: orange;
+}
+.footer_color {
+  width: 0, auto;
+  height: 100px;
+  text-align: center;
+}
+footer p {
+  line-height: 100px;
+}
