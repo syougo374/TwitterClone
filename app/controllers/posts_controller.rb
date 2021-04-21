@@ -9,6 +9,9 @@ class PostsController < ApplicationController
     @post = Post.new
   end
 
+  def top
+  end
+
   def create
     @post = Post.new(posts_params)
     if params[:back]
